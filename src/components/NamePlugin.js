@@ -1,10 +1,10 @@
 import React from 'react';
 
 export default class NamePlugin extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      name: this.getName(this.props.context)
+      name: this.getName(props.context)
     };
   }
 
@@ -20,7 +20,7 @@ export default class NamePlugin extends React.Component {
     return (
       <div>
         It is a Name Plugin:
-        <div>{this.props.context.name}</div>
+        <div>{this.state.name}</div>
       </div>
     );
   }
