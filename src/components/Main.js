@@ -1,22 +1,19 @@
-require('normalize.css/normalize.css');
-require('styles/App.css');
-
 import React from 'react';
+import NamePlugin from './NamePlugin';
 
-let yeomanImage = require('../images/yeoman.png');
+export default class AppComponent extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      name: 'yanz',
+      email: 'yanz@microsoft.com',
+      seat: 4571
+    };
+  }
 
-class AppComponent extends React.Component {
   render() {
     return (
-      <div className="index">
-        <img src={yeomanImage} alt="Yeoman Generator" />
-        <div className="notice">Please edit <code>src/components/Main.js</code> to get started!</div>
-      </div>
+      <NamePlugin context={this.state} />
     );
   }
 }
-
-AppComponent.defaultProps = {
-};
-
-export default AppComponent;
