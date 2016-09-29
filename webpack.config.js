@@ -4,7 +4,8 @@ var path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
-    NamePlugin: ['./src/components/NamePlugin.js']
+    NamePlugin: ['./src/components/NamePlugin.js'],
+    EmailPlugin: ['./src/components/EmailPlugin.js']
   },
   output: {
     filename: '[name].js',
