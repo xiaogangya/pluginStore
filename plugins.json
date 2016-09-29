@@ -1,7 +1,7 @@
 [
   {
     "name": "NamePlugin",
-    "container": "INJECTION_LEFT",
+    "containerType": "INJECTION_LEFT",
     "url": "https://rawgit.com/xiaogangya/pluginStore/master/dist/NamePlugin.js",
     "description": "name plugin"
   }

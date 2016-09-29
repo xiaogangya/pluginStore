@@ -18,3 +18,5 @@ export default class NamePlugin extends React.Component {
 NamePlugin.propTypes = {
   context: React.PropTypes.object.isRequired
 };
+
+window.registerPlugin('NamePlugin', NamePlugin);
