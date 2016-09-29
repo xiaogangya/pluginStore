@@ -19,4 +19,4 @@ NamePlugin.propTypes = {
   context: React.PropTypes.object.isRequired
 };
 
-window.registerPlugin('NamePlugin', NamePlugin);
+window.store.dispatch(window.registerPlugin('NamePlugin', NamePlugin));
