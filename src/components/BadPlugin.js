@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class EmailPlugin extends React.Component {
+export default class BadPlugin extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -12,22 +12,18 @@ export default class EmailPlugin extends React.Component {
     nextState.value = this.getValue(nextProps.context);
   }
 
-  getValue(context) {
-    return context.sources.find(x => x.key === 'email').value;
-  }
-
   render() {
     return (
       <div>
-        It is a email plugin:
+        It is a bad plugin:
         <div>{this.state.value}</div>
       </div>
     );
   }
 }
 
-EmailPlugin.propTypes = {
+BadPlugin.propTypes = {
   context: React.PropTypes.object.isRequired
 };
 
-window.store.dispatch(window.registerPlugin('EmailPlugin', EmailPlugin));
+window.store.dispatch(window.registerPlugin('BadPlugin', BadPlugin));

@@ -10,5 +10,11 @@
     "containerType": "INJECTION_RIGHT",
     "url": "https://rawgit.com/xiaogangya/pluginStore/master/dist/EmailPlugin.js",
     "description": "email plugin"
+  },
+  {
+    "name": "BadPlugin",
+    "containerType": "INJECTION_RIGHT",
+    "url": "https://rawgit.com/xiaogangya/pluginStore/master/dist/BadPlugin.js",
+    "description": "bad plugin"
   }
 ]

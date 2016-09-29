@@ -9,7 +9,7 @@ export default class NamePlugin extends React.Component {
   }
 
   componentWillUpdate(nextProps, nextState) {
-    nextState.name = this.getName(nextProps.context);
+    nextState.value = this.getValue(nextProps.context);
   }
 
   getValue(context) {
@@ -19,7 +19,7 @@ export default class NamePlugin extends React.Component {
   render() {
     return (
       <div>
-        It is a Name Plugin:
+        It is a name plugin:
         <div>{this.state.value}</div>
       </div>
     );
