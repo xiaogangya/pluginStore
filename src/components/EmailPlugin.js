@@ -19,7 +19,7 @@ export default class EmailPlugin extends React.Component {
   render() {
     return (
       <div>
-        It is a email plugin:
+        email plugin:
         <div>{this.state.value}</div>
       </div>
     );
