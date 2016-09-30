@@ -26,7 +26,7 @@ export default class SeatPlugin extends React.Component {
   }
 }
 
-NamePlugin.propTypes = {
+SeatPlugin.propTypes = {
   context: React.PropTypes.object.isRequired
 };
 
