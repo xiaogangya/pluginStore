@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
     NamePlugin: ['./src/components/NamePlugin.js'],
+    SeatPlugin: ['./src/components/SeatPlugin.js'],
     EmailPlugin: ['./src/components/EmailPlugin.js'],
     BadPlugin: ['./src/components/BadPlugin.js']
   },

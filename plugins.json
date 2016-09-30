@@ -6,6 +6,12 @@
     "description": "name plugin"
   },
   {
+    "name": "SeatPlugin",
+    "containerType": "INJECTION_LEFT",
+    "url": "https://rawgit.com/xiaogangya/pluginStore/master/dist/SeatPlugin.js",
+    "description": "seat plugin"
+  },
+  {
     "name": "EmailPlugin",
     "containerType": "INJECTION_RIGHT",
     "url": "https://rawgit.com/xiaogangya/pluginStore/master/dist/EmailPlugin.js",

@@ -15,7 +15,7 @@ export default class BadPlugin extends React.Component {
   render() {
     return (
       <div>
-        It is a bad plugin:
+        bad plugin:
         <div>{this.state.value}</div>
       </div>
     );
